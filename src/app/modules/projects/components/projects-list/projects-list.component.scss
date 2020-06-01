@@ -1,0 +1,97 @@
+@import "~src/styles.scss";
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  .project-card {
+    flex: calc(49.9% - 10px);
+    max-width: calc(49.9% - 10px);
+
+    margin-top: 20px;
+    background-color: white;
+
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+
+    &:nth-child(odd) {
+      margin-right: 10px;
+      @media (max-width: $max_width) {
+        margin-right: 0px;
+      }
+    }
+    &:nth-child(even) {
+      margin-left: 10px;
+      @media (max-width: $max_width) {
+        flex: 100%;
+        max-width: 100%;
+        margin-left: 0px;
+      }
+    }
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    @media screen and (max-width: $max_width) {
+      flex: 100%;
+      max-width: 100%;
+    }
+    .image-card {
+      position: relative;
+      vertical-align: middle;
+      width: 100%;
+      height: 250px;
+      .tile-image {
+        width: 100%;
+        height: 100%;
+      }
+      .title-location {
+        position: absolute;
+        bottom: 20px;
+        left: 10px;
+        padding: 10px;
+        font-size: 1.5em;
+        font-weight: bold;
+        color: white;
+        background-color: $seconary_color;
+      }
+      .price-container {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        text-align: center;
+        font-size: 1.5em;
+        color: white;
+
+        .btn-buy {
+          display: inline-block;
+          border-radius: 5px;
+          color: white; /* Add a text color */
+          padding: 17px 40px; /* Add some padding */
+          cursor: pointer; /* Add a pointer cursor on mouse-over */
+          background-color: #0b8d36;
+        }
+        .price {
+          margin-top: 5px;
+          margin-left: 20px;
+          margin-right: 20px;
+          padding: 10px;
+          font-weight: bold;
+          background-color: $seconary_color;
+        }
+      }
+    }
+    .target {
+      color: #dd5a86;
+      font-size: 1.3em;
+      font-weight: bold;
+      margin: 10px;
+    }
+    .offset {
+      color: #3fc473;
+      font-size: 1.3em;
+      font-weight: bold;
+      margin: 10px;
+    }
+    .description {
+      font-size: 1.3em;
+      margin: 10px;
+    }
+  }
+}

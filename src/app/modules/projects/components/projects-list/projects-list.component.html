@@ -1,0 +1,19 @@
+<div class="projects-list">
+  <div *ngFor="let project of projects" class="project-card">
+    <div class="image-card">
+      <img class="tile-image" src="{{ project.tile_image }}" />
+      <div class="title-location">
+        {{ project.title + " - " + project.location | uppercase }}
+      </div>
+      <div class="price-container" *ngIf="project.price">
+        <a class="btn-buy">Buy Now</a>
+        <div class="price">
+          ${{ project.price | number: "1.2-3" }} {{ " / ton" }}
+        </div>
+      </div>
+    </div>
+    <div class="target">{{ project.target }}</div>
+    <div class="offset">{{ project.offset | number }} lbs. offset</div>
+    <div class="description">{{ project.description }}</div>
+  </div>
+</div>

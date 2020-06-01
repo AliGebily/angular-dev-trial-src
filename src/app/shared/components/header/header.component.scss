@@ -1,0 +1,36 @@
+$responsive_width_flipping_point: 1050px;
+.header-container {
+  position: relative;
+  background-color: #c2f5aa;
+  border-radius: 10px;
+
+  @media (max-width: $responsive_width_flipping_point) {
+    position: static;
+    text-align: center;
+  }
+  .header-image {
+    margin-left: 10%;
+    @media (max-width: $responsive_width_flipping_point) {
+      margin: auto;
+    }
+  }
+  .header-text {
+    position: absolute;
+    top: 50%;
+    left: calc(10% + 260px);
+    padding-left: 10%;
+    padding-right: 10%;
+    transform: translate(0%, -50%);
+    font-size: 2.5em;
+    text-align: center;
+    @media (max-width: $responsive_width_flipping_point) {
+      position: static;
+      transform: none;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 5%;
+      padding-right: 5%;
+      font-size: 2em;
+    }
+  }
+}

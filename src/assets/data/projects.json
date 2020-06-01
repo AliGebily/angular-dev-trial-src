@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Kariba Redd+",
+    "location": "Zimbabwe",
+    "price": 7.50,
+    "target": "Reduced Emissions from Deforestation and Degradation",
+    "offset": 957842,
+    "description": "Protects forests and wildlife on the southern shores of Lake Kariba in Zimbabwe, forming a giant biodiversity corridor.",
+    "tile_image": "./assets/images/Tile_Image.jpg"
+  },
+  {
+    "title": "Arcata Sunnybrae Tract",
+    "location": "USA",
+    "price": null,
+    "target": "Improved Forest Management",
+    "offset": 710093,
+    "description": "Preservation of large tracts of coastal Redwood and Douglas fir that were slated for harvesting by the timber company.",
+    "tile_image": "./assets/images/Tile_Image.jpg"
+  },
+  {
+    "title": "Wolf Creek Landfill",
+    "location": "USA",
+    "price": null,
+    "target": "Landfill Methane Gas Capture",
+    "offset": 2005214,
+    "description": "Landfill methane gas-to-energy facility that provides significant environmental benefits to the surrounding area.",
+    "tile_image": "./assets/images/Tile_Image.jpg"
+  },
+  {
+    "title": "Terrapass Mixed Portfolio",
+    "location": "Mixed",
+    "price": null,
+    "target": "MIXED",
+    "offset": 241967,
+    "description": "Greenhouse gas reductions made at a variety of projects, including: reforestation, methane capture, and renewable energy.",
+    "tile_image": "./assets/images/Tile_Image.jpg"
+  },
+  {
+    "title": "Gaston County Landfill",
+    "location": "USA",
+    "price": null,
+    "target": "Landfill Methane Gas Capture",
+    "offset": 721663,
+    "description": "Voluntary collection and destruction of landfill methane in two open flares and three internal combustion engine generators.",
+    "tile_image": "./assets/images/Tile_Image.jpg"
+  },
+  {
+    "title": "Myamyn Conversation",
+    "location": "Australia",
+    "price": 7.5,
+    "target": "Reforestation & Hyrdopower",
+    "offset": 995908,
+    "description": "Supporting biodiversity and reforestration in Victoria, Australia; along with carbon reduction from a hyrdopower plant in Vietnam.",
+    "tile_image": "./assets/images/Tile_Image.jpg"
+  },
+  {
+    "title": "Natural Pact Land Art",
+    "location": "Costa Rica",
+    "price": null,
+    "target": "Reforestation through Land Art",
+    "offset": 3271,
+    "description": "Unique \"land art\" reforestation and conservation of forests that extend an important biological corridor for many endangered species.",
+    "tile_image": "./assets/images/Tile_Image.jpg"
+  },
+  {
+    "title": "Natural Lab Urban Forestry",
+    "location": "Canada",
+    "price": 22.50,
+    "target": "Urban Reforestation",
+    "offset": 13033,
+    "description": "Rehabilitating degraded urban and sub-urban areas through reforestation, adding significant greenery and restoring biodiversity.",
+    "tile_image": "./assets/images/Tile_Image.jpg"
+  }
+]
